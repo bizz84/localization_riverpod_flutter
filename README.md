@@ -8,7 +8,7 @@ flutter create -t skeleton project_name
 
 It is based on this article:
 
-- [https://codewithandrea.com/articles/flutter-localization-build-context-extension/](Simplified Flutter Localization using a BuildContext extension)
+- [Simplified Flutter Localization using a BuildContext extension](https://codewithandrea.com/articles/flutter-localization-build-context-extension/)
 
 ## Localization
 
