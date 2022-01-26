@@ -1,24 +1,14 @@
-# localization_riverpod_flutter
+# Simplified Flutter app template with localization support
 
-A new Flutter project.
+This is a simplified version of the Flutter **skeleton app template** that can be generated like this:
 
-## Getting Started
+```
+flutter create -t skeleton project_name
+```
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+It is based on this article:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Assets
-
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
-
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
+- [https://codewithandrea.com/articles/flutter-localization-build-context-extension/](Simplified Flutter Localization using a BuildContext extension)
 
 ## Localization
 
@@ -28,3 +18,5 @@ the `lib/src/localization` directory.
 To support additional languages, please visit the tutorial on
 [Internationalizing Flutter
 apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+
+## [LICENSE: MIT](LICENSE.md)
