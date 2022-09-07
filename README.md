@@ -36,4 +36,10 @@ final loc = ref.read(appLocalizationsProvider);
 print(loc.somethingWentWrong);
 ```
 
-## [LICENSE: MIT](LICENSE.md)
+## Preview
+
+The UI of the sample app updates automatically when changing the locale from the system settings:
+
+![Flutter localized counter preview](/.github/images/flutter-counter-localization.png)
+
+### [LICENSE: MIT](LICENSE.md)
