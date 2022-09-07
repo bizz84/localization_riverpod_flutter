@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       restorationScopeId: 'app',
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
+      debugShowCheckedModeBanner: false,
       onGenerateTitle: (BuildContext context) => context.loc.appTitle,
       home: const CounterPage(),
     );
