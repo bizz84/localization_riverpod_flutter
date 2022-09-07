@@ -10,7 +10,7 @@ final appLocalizationsProvider = Provider<AppLocalizations>((ref) {
   final observer = _LocaleObserver((locales) {
     ref.state = lookupAppLocalizations(ui.window.locale);
   });
-  final binding = WidgetsBinding.instance!;
+  final binding = WidgetsBinding.instance;
   binding.addObserver(observer);
   ref.onDispose(() => binding.removeObserver(observer));
   return ref.state;

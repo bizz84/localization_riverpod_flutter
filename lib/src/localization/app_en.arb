@@ -1,14 +1,7 @@
 {
   "appTitle": "localization_riverpod_flutter",
-  "@appTitle": {
-    "description": "The title of the application"
-  },
-  "itemDetails": "Item Details",
-  "@itemDetails": {
-    "description": "Title of the Item Details Page"
-  },
-  "moreInformationHere": "More Information Here",
-  "@moreInformationHere": {
-    "description": "Body of the Item Details Page"
-  }
+  "counterPage": "Counter page",
+  "buttonPushedTimes": "You have pushed the button this many times:",
+  "increment": "Increment",
+  "somethingWentWrong": "Something went wrong"
 }
