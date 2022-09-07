@@ -42,4 +42,21 @@ The UI of the sample app updates automatically when changing the locale from the
 
 ![Flutter localized counter preview](/.github/images/flutter-counter-localization.png)
 
+### Testing on Android
+
+To change the language on the Android emulator:
+
+- swipe up from the bottom to reveal all the Settings app
+- go to System > Languages & input and change the first language
+
+> Note: changing the language on Android won't kill the running app
+
+### Testing on iOS
+
+To change the language on the iOS simulator:
+
+- go to Settings > General > Language & Region > iPhone Language
+
+> Note: when changing the language on iOS, your app will be killed by the OS and you'll have to restart it.
+
 ### [LICENSE: MIT](LICENSE.md)
