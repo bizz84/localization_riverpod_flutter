@@ -6,10 +6,10 @@ import 'dart:ui' as ui;
 /// provider used to access the AppLocalizations object for the current locale
 final appLocalizationsProvider = Provider<AppLocalizations>((ref) {
   // set the initial locale
-  ref.state = lookupAppLocalizations(basicLocaleListResolution([ui.window.locale], AppLocalizations.supportedLocales));
+  ref.state = lookupAppLocalizations(basicLocaleListResolution([WidgetsBinding.instance.platformDispatcher.locale], AppLocalizations.supportedLocales));
   // update afterwards
   final observer = _LocaleObserver((locales) {
-    ref.state = lookupAppLocalizations(basicLocaleListResolution([ui.window.locale], AppLocalizations.supportedLocales));
+    ref.state = lookupAppLocalizations(basicLocaleListResolution([WidgetsBinding.instance.platformDispatcher.locale], AppLocalizations.supportedLocales));
   });
   final binding = WidgetsBinding.instance;
   binding.addObserver(observer);
